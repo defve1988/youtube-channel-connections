@@ -1,15 +1,49 @@
 <html>
 
 <head>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://unpkg.com/d3-simple-slider"></script>
 </head>
 
 <body>
-    <div >
+    <div>
+        Totol Channels: <span id="total_channel"></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="fname">Node Threshold:</label>
+        <input type="text" id="node_thres" value="0">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit" onclick="draw()" value="Redraw">
+    </div>
+    <div> Stats: <span id = "report">&nbsp;</span></div>
+    
+    
+    <div>
         <svg id="my_viz"></svg>
     </div>
     <script type="text/javascript" src="force_graph_class.js"></script>
 </body>
-
-
 </html>
+
+{{pause}} Youtube has mysterious algorithms to recommend videos, we only know it will recommend similar videos you have watched, which means your videos will be refer to some other channels with similar topics. It will also recommends trending videos to you. 
+{{pause}} However, no one ever know which videos will be exactly recommended to you. 
+{{pause}} How does youtube recommend videos? This question is both important to viewers and Youtuber.
+{{pause}} As a youtube viewer, I spend significant time on Youtube everyday. I want to find out what kinds of videos or channels will I watch if I just follow the Youtube's recommendations.  
+{{pause}} Does the algorithms limit my scope, or even manipulate my thoughts.
+{{pause}} As a normal youtube user, I can't access their miraculous algorithms. And even Google open their algorithms, I think it is still too hard to understand.
+{{pause}} On the contrary, to answer this question, we do not need to fully understand the algorithms. We can treat it as a black box.  It is just like we can still use a phone even we do not know how the it works exactly.
+{{pause}} I used python and selenium to simulate a people continuously watching youtube videos.
+{{pause}} The simulation is based on a watch list strategy. 
+{{pause}} First, the simulation will add several videos from the selected channel to a watch list.  
+{{pause}} Then the simulation will randomly pick videos, and store top recommended videos to the watch list.
+{{pause}} The information of each video and channel will be recorded.
+{{pause}} These processes will run multiple times to find out which videos and channels will be recommended by youtube for a particular test.
+{{pause}} For this video, I select the most popular Chinese youtuber, "李子柒", as the starting channel,  {{pause}} and see what channels will be recommended by youtube  within 500 watching. 
+{{pause}} Finally, I used D3 to visualize the results.  Each circle on the graph indicates a youtube channel,  {{pause}} and the size implies how many videos you will watch for this simulation.
+{{pause}} If you hover or drag a particular channel, all the connected channels will be highlighted.
+{{pause}} Also, We can check how many channels are referred by and to this channel.
+{{pause}} For this test, we can find there are near 200 channels were recommended, and four major channels were watched.
+{{pause}} However, most channels were watched less than 3 times, and all those channels were in a limited scope.   
+{{pause}} During the 500 watches, youtube continuously recommended similar videos and channels, which means youtube shrink the range of its recommendations very quickly.
+{{pause}} It is reasonable to assume that first several watches could be very important.
+{{pause}} And if you do not fight against the youtube recommendations, you will finally enter an endless circle, and probably never see the outside channels.
+{{pause}} Actually, this is a very simple test, {{pause}}  but it still could provide some clues for how youtube recommend videos,  and how those algorithms would potentially limit your experiences of watching.
+{{pause}} You can find Github repository for this project under this video. And thanks for watching.

@@ -113,7 +113,7 @@ class YoutuebTest:
 
                 # update node
                 if youtuber.text not in self.channels["nodes"].keys():
-                    if self.watched==0:
+                    if self.watched == 0:
                         isStart = True
                     else:
                         isStart = False
@@ -182,7 +182,7 @@ class YoutuebTest:
                                   separators=(',', ':'), ensure_ascii=False)
         res_watched_url = json.dumps(self.watched_url, sort_keys=True, indent=4,
                                      separators=(',', ':'), ensure_ascii=False)
-        with open("channel_graph.json", 'w', encoding='utf-8') as f:
+        with open("./data/channel_graph_"+str(self.watched//5)+".json", 'w', encoding='utf-8') as f:
             f.write(res_channels)
         with open("watched_url.json", 'w', encoding='utf-8') as f:
             f.write(res_watched_url)
@@ -196,7 +196,7 @@ class YoutuebTest:
         #         f.write(res_channels)
         #     with open("./runs/watched_url_"+this_run_name + ".json", 'w', encoding='utf-8') as f:
         #         f.write(res_watched_url)
-            
+
         # res_watch_list_url = json.dumps(self.watch_list_url, sort_keys=True, indent=4,
         #                                 separators=(',', ':'), ensure_ascii=False)
         # with open("watch_list_url.json", 'w', encoding='utf-8') as f:
@@ -208,7 +208,8 @@ class YoutuebTest:
             if self.watched > self.tot_watch:
                 break
             self.watch_next()
-            self.save_data()
+            if self.watched % 5 == 0:
+                self.save_data()
 
 
 def parameter_input():
@@ -240,50 +241,3 @@ def parameter_input():
             break
 
     return tot_watch, watch_list_capcity, channel_init, update_vidoe, blocked
-
-
-if __name__ == "__main__":
-    options = webdriver.ChromeOptions()
-    options.add_argument("headless")
-
-    from channels import channel_list
-    start_url = ""
-    test_type = input("start with: 1. channel 2. video 3.ALL? ")
-    if test_type == "1":
-        for i in channel_list.channel_index.keys():
-            print(i, channel_list.channel_index[i])
-        start_url = input("Select a number or copy url:")
-        try:
-            index = int(start_url)
-            name = channel_list.channel_index[index]
-            start_url = channel_list.channels[name]["url"]
-            category = channel_list.channels[name]["category"]
-            print(name, category, start_url)
-        except:
-            pass
-    elif test_type == "2":
-        start_url = input("start url (select number or copy url):")
-
-    tot_watch, watch_list_capcity, channel_init, update_vidoe, blocked = parameter_input()
-
-    if test_type == "3":
-        test = YoutuebTest("1", "")
-        for i in channel_list.channel_index.keys():
-            name = channel_list.channel_index[i]
-            start_url = channel_list.channels[name]["url"]
-            category = channel_list.channels[name]["category"]
-            print("start run", name, category, start_url)
-            test = YoutuebTest("1", start_url)
-            test.set_parameter(tot_watch, watch_list_capcity,
-                               channel_init, update_vidoe, blocked)
-            test.init_driver(webdriver.Chrome(chrome_options=options))
-            test.run_test()
-            # test.save_data(this_run=True, this_run_name=name)
-            test.driver.close()
-    else:
-        test = YoutuebTest(test_type, start_url)
-        test.set_parameter(tot_watch, watch_list_capcity,
-                           channel_init, update_vidoe, blocked)
-        test.init_driver(webdriver.Chrome())
-        test.run_test()
-        test.driver.close()

@@ -1,0 +1,25 @@
+{
+    "links":{
+        "李子柒 Liziqi-李子柒 Liziqi":{
+            "source":"李子柒 Liziqi",
+            "target":"李子柒 Liziqi",
+            "value":4
+        }
+    },
+    "nodes":{
+        "李子柒 Liziqi":{
+            "id":"李子柒 Liziqi",
+            "isStart":true,
+            "subscribers":13500000.0,
+            "url":"https://www.youtube.com/channel/UCoC47do520os_4DBMEFGg4A",
+            "watched":5,
+            "watched_videos":[
+                "芋头的一生，辣椒…是送的The life of taro…and pepper is today’s treat丨Liziqi Channel",
+                "Dragon boat zongzi~龙舟枕头粽，端午记得回家吃粽子 丨Liziqi Channel",
+                "The life of purple rice, pumpkins, and … peanuts紫米南瓜的一生…，还有花生丨Liziqi Channel",
+                "As a kid, I used to eat zongzi wrapped in shells of bamboo shoots.我小时候吃过的传统笋壳粽子，你那有吗？丨Liziqi Channel",
+                "The life of tomato~番茄………的一生？"
+            ]
+        }
+    }
+}

@@ -13691,6 +13691,7 @@
         },
         "ColdFusion":{
             "id":"ColdFusion",
+            "isStart":true,
             "subscribers":2660000.0,
             "url":"https://www.youtube.com/channel/UC4QZ_LsYcvcq7qOsOhpAX4A",
             "watched":13,
@@ -14800,6 +14801,7 @@
         },
         "GuanchaNews观察者网":{
             "id":"GuanchaNews观察者网",
+            "isStart":true,
             "subscribers":148000.0,
             "url":"https://www.youtube.com/channel/UCJncdiH3BQUBgCroBmhsUhQ",
             "watched":9,
@@ -16653,6 +16655,7 @@
         "NEVER TOO SMALL":{
             "id":"NEVER TOO SMALL",
             "subscribers":1420000.0,
+            "isStart":true,
             "url":"https://www.youtube.com/channel/UC_zQ777U6YTyatP3P1wi3xw",
             "watched":5,
             "watched_videos":[
@@ -17645,6 +17648,7 @@
         },
         "RushSong RS -":{
             "id":"RushSong RS -",
+            "isStart":true,
             "subscribers":335000.0,
             "url":"https://www.youtube.com/channel/UCvAFi3Brfyci4XH7V3pGcpA",
             "watched":22,
@@ -18650,6 +18654,7 @@
         },
         "The Coding Train":{
             "id":"The Coding Train",
+            "isStart":true,
             "subscribers":1190000.0,
             "url":"https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw",
             "watched":62,
@@ -19125,6 +19130,7 @@
         },
         "Traversy Media":{
             "id":"Traversy Media",
+            "isStart":true,
             "subscribers":1320000.0,
             "url":"https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA",
             "watched":23,
@@ -19175,6 +19181,7 @@
         },
         "Two Minute Papers":{
             "id":"Two Minute Papers",
+            "isStart":true,
             "subscribers":806000.0,
             "url":"https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg",
             "watched":8,
@@ -19658,6 +19665,7 @@
         "YGO":{
             "id":"YGO",
             "subscribers":98300.0,
+            "isStart":true,
             "url":"https://www.youtube.com/channel/UCerJk0-d22M7MFy8opOuyjA",
             "watched":69,
             "watched_videos":[
@@ -19822,6 +19830,7 @@
         },
         "Yuan's Multiverse科技袁人":{
             "id":"Yuan's Multiverse科技袁人",
+            "isStart":true,
             "subscribers":124000.0,
             "url":"https://www.youtube.com/channel/UCSgGqt-30oXBq0-n0K-t4Nw",
             "watched":18,
@@ -20596,6 +20605,7 @@
         },
         "中国青年郑国成":{
             "id":"中国青年郑国成",
+            "isStart":true,
             "subscribers":101000.0,
             "url":"https://www.youtube.com/channel/UC5uh3zVGmvyQoks_LxBJ-5Q",
             "watched":5,
@@ -21017,6 +21027,7 @@
             "subscribers":229000.0,
             "url":"https://www.youtube.com/channel/UCDiBqW5ew4VUIuGL06tJ_UQ",
             "watched":55,
+            "isStart":true,
             "watched_videos":[
                 "【吐嚎】非洲小夥苦練中國功夫大戰日本空手道！？非洲導演拍出的功夫電影有多奇葩？",
                 "【吐嚎】12年前電影竟神預言美國大選！？廢柴的關鍵1票就能決定總統是誰！",
@@ -21246,6 +21257,7 @@
         },
         "大紀元 — 新聞看點":{
             "id":"大紀元 — 新聞看點",
+            "isStart":true,
             "subscribers":535000.0,
             "url":"https://www.youtube.com/channel/UCPMqbkR35zZV1ysWGXJPW-w",
             "watched":7,
@@ -21341,6 +21353,7 @@
         },
         "妈咪说MommyTalk":{
             "id":"妈咪说MommyTalk",
+            "isStart":true,
             "subscribers":153000.0,
             "url":"https://www.youtube.com/channel/UCLROLAN8kmU7tGQDs6KH-bQ",
             "watched":21,
@@ -21679,6 +21692,7 @@
         "悉尼奶爸 Sydney Daddy":{
             "id":"悉尼奶爸 Sydney Daddy",
             "subscribers":107000.0,
+            "isStart":true,
             "url":"https://www.youtube.com/channel/UCbKazqxVVIT0aIm4ZPR9t4w",
             "watched":6,
             "watched_videos":[
@@ -21892,6 +21906,7 @@
         },
         "文昭談古論今 -Wen Zhao Official":{
             "id":"文昭談古論今 -Wen Zhao Official",
+            "isStart":true,
             "subscribers":657000.0,
             "url":"https://www.youtube.com/channel/UCtAIPjABiQD3qjlEl1T5VpA",
             "watched":8,
@@ -21991,6 +22006,7 @@
         },
         "方头人":{
             "id":"方头人",
+            "isStart":true,
             "subscribers":25400.0,
             "url":"https://www.youtube.com/channel/UCCObFBf0GKZMRfBH3CCv_ug",
             "watched":6,
@@ -22074,6 +22090,7 @@
         "李子柒 Liziqi":{
             "id":"李子柒 Liziqi",
             "subscribers":13400000.0,
+            "isStart":true,
             "url":"https://www.youtube.com/channel/UCoC47do520os_4DBMEFGg4A",
             "watched":15,
             "watched_videos":[
@@ -22096,6 +22113,7 @@
         },
         "李永乐老师":{
             "id":"李永乐老师",
+            "isStart":true,
             "subscribers":1480000.0,
             "url":"https://www.youtube.com/channel/UCSs4A6HYKmHA2MG_0z-F0xw",
             "watched":33,
@@ -22419,6 +22437,7 @@
         },
         "王剑Wong Kim's Observation":{
             "id":"王剑Wong Kim's Observation",
+            "isStart":true,
             "subscribers":229000.0,
             "url":"https://www.youtube.com/channel/UC8UCbiPrm2zN9nZHKdTevZA",
             "watched":8,
@@ -22527,6 +22546,7 @@
             "subscribers":781000.0,
             "url":"https://www.youtube.com/channel/UCZmyD8-UsaxaVL-Zx3KEQKw",
             "watched":13,
+            "isStart":true,
             "watched_videos":[
                 "爱一个人的最高境界是什么样？《附注：我爱你》| 看电影了没",
                 "【看电影了没】我和女儿成了情敌《意》",
@@ -22571,6 +22591,7 @@
         "科学声音":{
             "id":"科学声音",
             "subscribers":111000.0,
+            "isStart":true,
             "url":"https://www.youtube.com/channel/UCUBhobCkTLhgfUNRAgHSYmw",
             "watched":19,
             "watched_videos":[
@@ -22597,6 +22618,7 @@
         },
         "科幻FANS":{
             "id":"科幻FANS",
+            "isStart":true,
             "subscribers":474000.0,
             "url":"https://www.youtube.com/channel/UCq2a8muf_TCGJt1AhBfU-7A",
             "watched":8,
@@ -22701,6 +22723,7 @@
         },
         "红酒汤姆一世":{
             "id":"红酒汤姆一世",
+            "isStart":true,
             "subscribers":74100.0,
             "url":"https://www.youtube.com/channel/UCJT6M5j-HT-76ts0eTzZtJw",
             "watched":15,
@@ -22795,6 +22818,7 @@
         "老東北美食":{
             "id":"老東北美食",
             "subscribers":91000.0,
+            "isStart":true,
             "url":"https://www.youtube.com/channel/UCyMScfdoCr6aeswJG7tdwmQ",
             "watched":31,
             "watched_videos":[
@@ -22873,6 +22897,7 @@
         },
         "胡锡进Global Times Hu Xijin":{
             "id":"胡锡进Global Times Hu Xijin",
+            "isStart":true,
             "subscribers":44000.0,
             "url":"https://www.youtube.com/channel/UCVD-MGxD71IQUk9_hHq8MdA",
             "watched":11,
@@ -22977,6 +23002,7 @@
         },
         "草泥泥影院官方频道":{
             "id":"草泥泥影院官方频道",
+            "isStart":true,
             "subscribers":28300.0,
             "url":"https://www.youtube.com/channel/UCstG_4FppKsjQ8T6ygyA_1Q",
             "watched":64,
@@ -23079,6 +23105,7 @@
         "蔷仔说电影":{
             "id":"蔷仔说电影",
             "subscribers":148000.0,
+            "isStart":true,
             "url":"https://www.youtube.com/channel/UC_Udz5R0NCgLTWbmn-QiWGA",
             "watched":17,
             "watched_videos":[
@@ -23161,6 +23188,7 @@
         },
         "西瓜说柯南":{
             "id":"西瓜说柯南",
+            "isStart":true,
             "subscribers":51100.0,
             "url":"https://www.youtube.com/channel/UCMCLuCrtZ-L24Nqb2Cz6YkQ",
             "watched":35,
@@ -23438,6 +23466,7 @@
         },
         "金灿荣频道":{
             "id":"金灿荣频道",
+            "isStart":true,
             "subscribers":140000.0,
             "url":"https://www.youtube.com/channel/UCBXcmuXNObHgRzMHwXP2sLQ",
             "watched":11,
@@ -23690,6 +23719,7 @@
         },
         "马蹄厨房 Martin's Cuisine":{
             "id":"马蹄厨房 Martin's Cuisine",
+            "isStart":true,
             "subscribers":301000.0,
             "url":"https://www.youtube.com/channel/UCRIGdUaQnVSIcIGP5w8N8SA",
             "watched":14,
